@@ -9,8 +9,6 @@ import {
   Search,
   Settings,
 } from "@mui/icons-material";
-import CloseFriend from "../closefriend/CloseFriend";
-import { Users } from "../../dummyData";
 
 export default function Sidebar() {
   return (
@@ -46,12 +44,14 @@ export default function Sidebar() {
             <span className="sidebarListItemText">設定</span>
           </li>
         </ul>
-        <hr className="sidebarHr" />
-        <ul className="sidebarFriendList">
-          {Users.map((user) => (
-            <CloseFriend user={user} key={user.id} />
-          ))}
-        </ul>
+      <hr className="sidebarHr" />
+      <ul className="sidebarFriendList">
+        <li className="sidebarFriend">
+          <img src="/assets/person/2.jpeg" alt="" className="sidebarFriendImg"/>
+          <span className="sidebarFriendName">shin code</span>
+        </li>
+        
+      </ul>
       </div>
     </div>
   );

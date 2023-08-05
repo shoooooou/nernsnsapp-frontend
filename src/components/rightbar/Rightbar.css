@@ -22,34 +22,33 @@
   border-radius: 10px;
   margin: 25px 0;
 }
-.rightbarTitle{
+.rightbarTitle {
   margin-bottom: 20px;
 }
-.rightbarFriendList{
+.rightbarFriendList {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-.rightbarFriend{
+.rightbarFriend {
   display: flex;
   text-align: center;
   margin-bottom: 15px;
-
 }
-.rightbarProfileImgContainer{
+.rightbarProfileImgContainer {
   margin-right: 10px;
   position: relative;
 }
-.rightbarProfileImg{
+.rightbarProfileImg {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   object-fit: cover;
 }
-.rightbarUsername{
+.rightbarUsername {
   font-weight: 550;
 }
-.rightbarOnline{
+.rightbarOnline {
   background-color: purple;
   position: absolute;
   width: 12px;
@@ -59,18 +58,51 @@
   top: -2px;
   border: 2px solid white;
 }
-.promotionTitle{
+.promotionTitle {
   font-weight: 550;
   font-size: 18px;
   margin-bottom: -10px;
 }
-.rightbarPromotionImg{
+.rightbarPromotionImg {
   width: 85%;
   border-radius: 10px;
   margin: 25px 0;
 }
-.promotionName{
+.promotionName {
   font-size: small;
   color: gray;
   margin-top: -20px;
+}
+.rightbarTitle {
+  font-size: 18px;
+  font-weight: 550;
+  margin-bottom: 10px;
+}
+.rightbarInfo {
+  margin-bottom: 30px;
+}
+.rightbarInfoKey {
+  font-weight: 500;
+  margin-right: 5px;
+  color: #555;
+}
+.rightbarFollowings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.rightbarFolloing {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.rightbarFollowingImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.rightbarInfoItem {
+  margin-bottom: 10px;
 }
